@@ -5,7 +5,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Matheus Motta | FullStack Developer</title>
+        <title>
+          CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico
+        </title>
       </Head>
       <main />
     </div>
