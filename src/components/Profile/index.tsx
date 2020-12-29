@@ -15,7 +15,15 @@ const Profile: React.FC = () => {
         <Info>
           <h1>Katiele Rezer Menger</h1>
           <span>Doutoranda e Mestre em Ciência Política</span>
-
+          <p>
+            Nome em citações: <span>MENGER, K. R.</span>
+          </p>
+          <p>
+            Lattes ID: <span>7276371030569578</span>
+          </p>
+          <p>
+            E-mail: <span>katiele.menger@ufrgs.br</span>
+          </p>
           <div>
             <MdUpdate />
             <p>Última atualização do currículo em 19/11/2020</p>

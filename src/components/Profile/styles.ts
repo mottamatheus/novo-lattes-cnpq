@@ -14,7 +14,7 @@ export const Main = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 23rem;
+  height: 24rem;
 `;
 
 export const Image = styled.div`
@@ -35,10 +35,25 @@ export const Info = styled.div`
   box-shadow: 1px 1px 1px 1px rgba(230, 230, 230, 0.7);
   padding: 2%;
 
+  > p {
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+
+    &:first-of-type {
+      margin-top: 1.5rem;
+    }
+
+    span {
+      font-weight: 400;
+      color: var(--text-primary);
+    }
+  }
+
   h1 {
     font-size: 3rem;
     color: var(--text-secondary);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
   }
 
   span {
@@ -49,7 +64,7 @@ export const Info = styled.div`
   div {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
     svg {
       color: var(--text-secondary);
