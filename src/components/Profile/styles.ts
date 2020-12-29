@@ -88,6 +88,27 @@ export const About = styled.div`
 
   h2 {
     margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+`;
+
+export const Formation = styled.div`
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1.4rem;
+  box-shadow: 1px 1px 1px 1px rgba(230, 230, 230, 0.7);
+  padding: 2%;
+  margin-top: 4vh;
+
+  h2 {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
   }
 
   p {
