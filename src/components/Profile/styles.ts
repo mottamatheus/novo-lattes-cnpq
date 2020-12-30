@@ -107,12 +107,27 @@ export const Formation = styled.div`
   margin-top: 4vh;
 
   h2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
     color: var(--text-secondary);
   }
 
-  p {
-    font-size: 1.4rem;
-    text-align: justify;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      justify-content: center;
+      width: 20%;
+      text-align: center;
+    }
+
+    > p {
+      width: 80%;
+      border-left: 2px solid var(--text-secondary);
+      padding-left: 4rem;
+      font-size: 1.4rem;
+      text-align: justify;
+    }
   }
 `;
