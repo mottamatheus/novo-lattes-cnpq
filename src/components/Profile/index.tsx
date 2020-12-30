@@ -70,6 +70,26 @@ const Profile: React.FC = () => {
           </p>
         </div>
       </Formation>
+      <Formation>
+        <h2>Formação Acadêmica / Titulação</h2>
+        <div>
+          <h4>2016 - 2020</h4>
+          <p>
+            <p>
+              <strong>Doutorado em andamento em Sociologia</strong>
+            </p>
+            <p>
+              Instituto de Estudos Sociais e Políticos - Uerj, IESP - UERJ,
+              Brasil
+            </p>
+            <p>Orientador: Luiz Augusto Campos</p>
+            <p>
+              Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e
+              Tecnológico, CNPq, Brasil
+            </p>
+          </p>
+        </div>
+      </Formation>
     </Container>
   );
 };
