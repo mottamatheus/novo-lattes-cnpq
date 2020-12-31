@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +11,10 @@ const Home: React.FC = () => {
           CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico
         </title>
       </Head>
-      <main />
+      <main>
+        <Navbar />
+        <Link href="/profile">a</Link>
+      </main>
     </div>
   );
 };

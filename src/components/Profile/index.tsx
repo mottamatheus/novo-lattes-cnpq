@@ -2,7 +2,6 @@ import React from 'react';
 import { MdUpdate, MdLink } from 'react-icons/md';
 import { Container, Main, Image, Info, About, Formation } from './styles';
 import profileImg from '../../assets/profile_1.jpg';
-import logoImg from '../../assets/lattes.svg';
 
 const Profile: React.FC = () => {
   return (

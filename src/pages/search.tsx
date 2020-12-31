@@ -8,7 +8,7 @@ const ProfilePage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Currículo Lattes - Katiele Rezer Menger - CNPq</title>
+        <title>Busca | Currículo Lattes - CNPq</title>
       </Head>
       <Navbar />
       <Profile />
