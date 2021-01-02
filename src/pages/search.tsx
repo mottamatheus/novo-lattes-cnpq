@@ -2,7 +2,7 @@ import React from 'react';
 
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import Profile from '../components/Profile';
+import SearchBar from '../components/SearchBar';
 
 const ProfilePage: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const ProfilePage: React.FC = () => {
         <title>Busca | Currículo Lattes - CNPq</title>
       </Head>
       <Navbar />
-      <Profile />
+      <SearchBar />
     </>
   );
 };
