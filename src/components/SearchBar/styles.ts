@@ -25,3 +25,8 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const Button = styled.div`
+  width: 2rem;
+  background: var(--bg);
+`;

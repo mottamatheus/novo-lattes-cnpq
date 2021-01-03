@@ -8,8 +8,8 @@ import { Container } from './styles';
 const Navbar: React.FC = () => {
   return (
     <Container>
-      <Link href="/">Pagina Inicial</Link>
       <Link href="/">Sobre</Link>
+      <Link href="/search">Busca</Link>
       <Link href="/search">Instituições</Link>
       <Link href="/">Grupos de Pesquisa</Link>
       <Link href="/">Painel Lattes</Link>
