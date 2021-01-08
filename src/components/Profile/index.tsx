@@ -63,7 +63,7 @@ const Profile: React.FC = () => {
             </p>
             <p>Orientador: Luiz Augusto Campos</p>
             <p>
-              Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e
+              Bolsista do: Conselho Nacional de Desenvolvimento Científico e
               Tecnológico, CNPq, Brasil
             </p>
           </p>
