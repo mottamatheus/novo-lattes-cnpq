@@ -26,7 +26,7 @@ const Profile: React.FC = () => {
           </p>
           <div>
             <MdUpdate />
-            <p>Última atualização do currículo em 19/11/2020</p>
+            <p>Última atualização do currículo em 07/01/2021</p>
           </div>
           <MdLink />
         </Info>
