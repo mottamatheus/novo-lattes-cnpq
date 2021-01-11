@@ -79,7 +79,7 @@ export const Info = styled.div`
 export const About = styled.div`
   width: 100%;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: rgba(230, 230, 230, 0.9);
   border-radius: 1.4rem;
   box-shadow: 1px 1px 1px 1px rgba(230, 230, 230, 0.7);
   padding: 2%;
